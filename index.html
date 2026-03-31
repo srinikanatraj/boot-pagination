@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Pagination Project</title>
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body class="container mt-4">
+
+  <h2 class="text-center mb-4">Pagination Demo</h2>
+
+  <!-- Basic Pagination -->
+  <h4>Basic Pagination</h4>
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link">Previous</a></li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item active"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item"><a class="page-link">Next</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Disabled -->
+  <h4>Disabled State</h4>
+  <ul class="pagination">
+    <li class="page-item disabled"><a class="page-link">Previous</a></li>
+    <li class="page-item active"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Sizes -->
+  <h4>Pagination Sizes</h4>
+  <ul class="pagination pagination-lg">
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+  </ul>
+
+  <ul class="pagination pagination-sm mt-2">
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Alignment -->
+  <h4>Alignment</h4>
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+  </ul>
+
+  <ul class="pagination justify-content-end">
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Breadcrumb -->
+  <h4>Breadcrumb Navigation</h4>
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Products</a></li>
+    <li class="breadcrumb-item active">Details</li>
+  </ul>
+
+  <hr>
+
+  <!-- Real UI Example -->
+  <h4>Blog Page Example</h4>
+
+  <div class="card p-3 mb-3">
+    <h5>Blog Post 1</h5>
+    <p>Content preview...</p>
+  </div>
+
+  <div class="card p-3 mb-3">
+    <h5>Blog Post 2</h5>
+    <p>Content preview...</p>
+  </div>
+
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link">Prev</a></li>
+    <li class="page-item active"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">Next</a></li>
+  </ul>
+
+</body>
+</html>
